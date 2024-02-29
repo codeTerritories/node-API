@@ -12,13 +12,13 @@ sendMail: async(email,subject,html)=>{
         var transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-              user: 'aditya.dubey@indicchain.com',
-              pass: 'jsadfnlknd'
+              user: 'xxxxxxxxxxx',
+              pass: 'xxxxx'
             }
           });
           
           var mailOptions = {
-            from: `aditya.dubey@indicchain.com`,
+            from: `xxxxcccccc`,
             to: email,
             subject: subject,
             text: html
